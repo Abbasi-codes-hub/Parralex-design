@@ -9,26 +9,49 @@ A Parallax design for shaping my skills and also some parts which have professio
 ## 🔥 Live Typing Effect Preview (HTML + CSS)
 
 ```html
-<h1 class="typing">Welcome to Parralex World</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<style>
-.typing {
-  width: 22ch;
-  animation: typing 3s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid orange;
-  font-family: monospace;
-  font-size: 1.5rem;
-  color: #fca311;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../html/src/css/style.css">
+</head>
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 22ch }
-}
+<body>
+    <section class="section-1">
+        <h2>Welcome On Board</h2>
+        <p>Embark on a journey where your vision turns into reality.</p>
+    </section>
 
-@keyframes blink {
-  50% { border-color: transparent }
-}
-</style>
+    <section class="section-2">
+        <h2>Our Mission</h2>
+        <p>We aim to deliver excellence with every line of code.</p>
+    </section>
+
+    <section class="section-3">
+        <h2>Crafted With Passion</h2>
+        <p>Every project reflects our dedication and attention to detail.</p>
+    </section>
+
+    <section class="section-4">
+        <h2>Innovation At Core</h2>
+        <p>We embrace the latest technologies to stay ahead of the curve.</p>
+    </section>
+
+    <section class="section-5">
+        <h2>Client-Centric Approach</h2>
+        <p>Your satisfaction is not just a goal; it’s our priority.</p>
+    </section>
+
+    <section class="section-6">
+        <h2>Let’s Build Together</h2>
+        <p>Join hands and let’s create something extraordinary.</p>
+    </section>
+
+</body>
+</html>
+
+                    ...........CSS.............
+
